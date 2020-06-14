@@ -1,34 +1,122 @@
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - faq-becas-disponibles
+  - faq-feriados
+  - horario-clases-edu-admi-comer
+  - admision-fechas-posgrado
+  - inf-universidad-correo
+  - horario-clases-contabilidad
+  - tramite-grado-bachiller-desde-0
+  - post-proceso-tesis
+  - horario-clases-psicologia
+  - faq-protitulo
+  - tramites-pregrado-manual
+  - post-indices-formatos-tesis-pregrado
+  - inf-universidad-matriculas
+  - faq-estudios-distancia
+  - admision-carreras
+  - idirectorio
+  - horario-clases-derecho
+  - faq-modalidad-estudios
+  - post-reglamento-grados-titulos
+  - faq-lugar-clases
+  - faq-creditos
+  - faq-preguntas
+  - inf-universidad-horario-atencion
+  - admision-pregrado-requisitos
+  - inf-universidad-direcciones
+  - faq-universidad-proformaacademica
+  - admision-pregrado-requisitos-extraordinario
+  - faq-tesis
+  - faq-cursos-a-llevar
+  - faq-erp-notas-matriculas
+  - inf-universidad-intercambios
+  - despedida
+  - aboutmariateguinobot-hablarconoperador
+  - faq-calendario
+  - admision-carreras-pregrado
+  - aboutmariateguinobot
+  - system-payload-tramite-linea-servicios-academicos
+  - faq-docentes
+  - tramites-pregrado-seguimiento
+  - faq-bancos-autorizados
+  - system-payload-tramite-linea-economia
+  - admision-pre-posgrado
+  - admision-fechas
+  - faq-doctorados
+  - admision-pregrado-requisitos-ordinario
+  - aboutmariateguinobot-habilidades
+  - req-tramites
+  - opciones-postback
+  - default welcome intent
+  - system-payload-tramite-linea-escuelas
+  - admision-fechas-pregrado
+  - faq-tramites-en-linea
+  - inf-universidad-telefonos
+  - inf-universidad-pago-mensualidades
+  - admision-pregrado-temario
+  - system-payload-tramite-linea-servicios-bienestar
+  - inf-universidad-inicio-clases
+  - req-tramite-bachiller-automatico
+  - faq-practicas-pre
+  - menuacciones
+  - admision-carreras-posgrado
+  - inf-trabajo-investigacion-bachiller
+  - system-payload-tramite-linea-negativo
+  - tramites-pregrado-pedirequistos
+  - req-tramite-bachiller-trabajo-investigacion
+  - faq-about-directorgeneral
+  - horario-clases-otros
+  - about-smartujcm
+  - faq-bachiller-automatico
+  - inf-reglamento-grados-titulos
+  - admision
+  - faq-licenciamiento
+  - get_started
+  - admision-pregrado-requisitos-pregrado
+  - faq-docentes - derecho
+  - admision-pregrado
+  - system-payload-tramite-linea-escuelas - psicología
+  - faq-docentes - contabilidad
+  - admision-posgrado
+  - system-payload-tramite-linea-escuelas - derecho
+  - system-payload-tramite-linea-escuelas - contabilidad
+  - get_started - no
+  - get_started - yes
+  - system-payload-tramite-linea-escuelas - ciencias administrativas y marketing estratégico
+  - system-payload-tramite-linea-escuelas - ingeniería comercial
+  - faq-docentes-educa-comercial-administracion
+  - faq-docentes - psicologia
+  - system-payload-tramite-linea-escuelas - educación inicial
+  - system-payload-tramite-linea-escuelas - educación física
+  - default welcome intent - aceptaterminos
+  - system-payload-tramite-linea-escuelas - ingeniería de sistemas e informática
+  - admision-pregrado-paso3
+  - admision-pregrado-paso1
+  - admision-pregrado-paso2
+  - admision-pregrado-fecha
+  - admision-pregrado-paso4
 
 actions:
-  - action_hello_world
-  
+
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  default welcome intent:
+    - text: "Hola!, ¿como estas?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+    - text: "Did that help you?"
 
   utter_happy:
-  - text: "Great, carry on!"
+    - text: "Great, carry on!"
 
-  utter_goodbye:
-  - text: "Bye"
+    despedida:
+    - text: "Nos vemos!"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+    - text: "I am a bot, powered by Rasa."
 
 session_config:
   session_expiration_time: 60
