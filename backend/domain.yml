@@ -107,16 +107,16 @@ responses:
       image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-    - text: "Did that help you?"
+    - text: "chau"
 
   utter_happy:
-    - text: "Great, carry on!"
+    - text: "bien"
 
     despedida:
     - text: "Nos vemos!"
 
   utter_iamabot:
-    - text: "I am a bot, powered by Rasa."
+    - text: "Soy un chatbot hecho con RASA"
 
 session_config:
   session_expiration_time: 60
