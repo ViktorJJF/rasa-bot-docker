@@ -96,8 +96,6 @@ intents:
   - admision-pregrado-fecha
   - admision-pregrado-paso4
 
-actions:
-
 responses:
   default welcome intent:
     - text: "Hola!, ¿como estas?"
